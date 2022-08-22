@@ -12,6 +12,7 @@ function increase() {
       style="
       width: ${size}px;
       height: ${size}px;
+      background-color: ${backgroundColor};
       "
     ></div>`
 }
@@ -24,6 +25,7 @@ function decrease() {
       style="
       width: ${size}px;
       height: ${size}px;
+      background-color: ${backgroundColor};
       "
     ></div>`
 }
@@ -36,6 +38,8 @@ function red() {
     class="box"
     style="
     background-color: ${backgroundColor};
+    width: ${size}px;
+    height: ${size}px;
     "
   ></div>`
 }
@@ -48,6 +52,8 @@ function green() {
     class="box"
     style="
     background-color: ${backgroundColor};
+    width: ${size}px;
+    height: ${size}px;
     "
   ></div>`
 }
@@ -60,6 +66,8 @@ function blue() {
     class="box"
     style="
     background-color: ${backgroundColor};
+    width: ${size}px;
+    height: ${size}px;
     "
   ></div>`
 }
